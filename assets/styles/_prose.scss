@@ -1,0 +1,28 @@
+.prose {
+  text-align: justify;
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      position: relative;
+      padding-left: 1rem;
+      margin-bottom: 0.5rem;
+
+      &::before {
+        position: absolute;
+        left: 0;
+        content: '-';
+      }
+    }
+  }
+
+  pre {
+    padding: 1rem;
+    overflow-x: auto;
+    background-color: hsla(0, 0%, 100%, 0.03);
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 0 1px hsl(0deg 0% 100% / 10%);
+  }
+}
