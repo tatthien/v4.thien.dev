@@ -21,6 +21,15 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@400;700&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap',
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/hljs.css',
+      },
     ],
   },
 
@@ -43,15 +52,10 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/markdownit',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
-
-  markdownit: {
-    injected: true,
-  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

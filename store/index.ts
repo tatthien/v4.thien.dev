@@ -1,5 +1,5 @@
 import { GetterTree, ActionTree, MutationTree } from 'vuex'
-import { Post } from '@/types'
+import { Post } from '~/types'
 import client from '~/plugins/contentful'
 
 export const state = () => ({

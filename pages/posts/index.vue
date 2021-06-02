@@ -14,7 +14,7 @@ div
 <script lang="ts">
 import Vue from 'vue'
 import PostItem from '@/components/PostItem.vue'
-import { Post } from '@/types'
+import { Post } from '~/types'
 
 export default Vue.extend({
   components: {

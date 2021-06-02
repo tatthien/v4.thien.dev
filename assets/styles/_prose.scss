@@ -1,5 +1,5 @@
 .prose {
-  text-align: justify;
+  line-height: 1.6;
 
   ul {
     padding: 0;
@@ -18,9 +18,20 @@
     }
   }
 
-  pre {
+  li > code,
+  p > code {
+    font-size: $font-base;
+    padding: 0.125rem 0.5rem;
+    background-color: hsla(0, 0%, 100%, 0.03);
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 0 1px hsl(0deg 0% 100% / 10%);
+  }
+
+  pre code {
+    display: block;
     padding: 1rem;
     overflow-x: auto;
+    font-size: $font-base;
     background-color: hsla(0, 0%, 100%, 0.03);
     border-radius: 0.5rem;
     box-shadow: inset 0 0 0 1px hsl(0deg 0% 100% / 10%);

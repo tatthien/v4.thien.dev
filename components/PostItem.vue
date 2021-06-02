@@ -6,7 +6,7 @@ nuxt-link.post-item( :to='`/posts/${post.id}`')
 
 <script lang="ts">
 import Vue, { PropOptions } from 'vue'
-import { Post } from '@/types'
+import { Post } from '~/types'
 
 export default Vue.extend({
   props: {
