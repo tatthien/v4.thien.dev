@@ -65,12 +65,12 @@ code {
 .post {
   &-item {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.5rem;
-    border-bottom: none;
     font-weight: normal;
-    flex-wrap: wrap;
+    border-bottom: none;
 
     > span {
       width: 100%;
@@ -87,7 +87,8 @@ code {
 .btn {
   display: inline-flex;
   align-items: center;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: normal;
   background: hsla(0, 0%, 100%, 0.03);
   border: none;
   border-radius: 0.5rem;
@@ -100,6 +101,11 @@ code {
   span + svg {
     margin-left: 0.5rem;
   }
+
+  &-sm {
+    padding: 0.25rem 1rem;
+    font-size: $font-base;
+  }
 }
 
 section {
@@ -107,5 +113,12 @@ section {
 
   h1 {
     margin-bottom: 1rem;
+    font-size: $font-2xl;
+  }
+}
+
+.tags {
+  > * {
+    margin-right: 0.5rem;
   }
 }

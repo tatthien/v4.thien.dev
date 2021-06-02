@@ -10,6 +10,13 @@ div
   section#notes
     h1 Notes
     post-list
+
+  section#versions
+    h1 Versions
+    nav.tags
+      a.btn.btn-sm(href="https://v1.thien.dev/" target="_blank") v1
+      a.btn.btn-sm(href="https://v2.thien.dev/" target="_blank") v2
+      a.btn.btn-sm(href="https://v3.thien.dev/" target="_blank") v3
 </template>
 
 <script lang="ts">
