@@ -1,20 +1,7 @@
-# blog
+# My Homepage
 
-## Build Setup
+Once again, I revamp my personal website.
 
-```bash
-# install dependencies
-$ yarn install
+This site is built on top of [Nuxt.js](https://nuxtjs.org). All of my blog posts are hosted on [Contentful](https://www.contentful.com/) - a headless CMS.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+<img width="1458" alt="Screen Shot 2021-06-02 at 14 06 25" src="https://user-images.githubusercontent.com/72242664/120438614-cb25ad00-c3ab-11eb-82c3-3d17853352c3.png">
