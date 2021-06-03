@@ -3,8 +3,8 @@ div
   section
     h1 Hey, I'm Thien 👋
     div
-      p I'm a web developer living in Ho Chi Minh city. Currently, I work for <a href="https://pangara.com" target="_blank">Pangara</a>. My choice of stack is <span class="laravel font-bold">Laravel</span>, <span class="vue">Vue.js</span> and <span class="wp">WordPress</span>.
-      p You can follow me on <a href="https://twitter.com/thisisthien" target="_blank">Twitter</a>, see my code on <a href="https://github.com/tatthien" target="_blank">Github</a>. I occasionally <a href="#notes">blog</a> too.
+      p I'm a web developer living in Ho Chi Minh city. Currently, I work for <a href="https://pangara.com" target="_blank" rel="noopener">Pangara</a>. My choice of stack is <span class="laravel font-bold">Laravel</span>, <span class="vue">Vue.js</span> and <span class="wp">WordPress</span>.
+      p You can follow me on <a href="https://twitter.com/thisisthien" target="_blank" rel="noopener">Twitter</a>, see my code on <a href="https://github.com/tatthien" target="_blank" rel="noopener">Github</a>. I occasionally <a href="#notes">blog</a> too.
       p Out side of programming and helping my wife take care of our son, I enjoy playing soccer, collecting machanical keycaps.
 
   section#notes
@@ -14,9 +14,9 @@ div
   section#versions
     h1 Versions
     nav.tags
-      a.btn.btn-sm(href="https://v1.thien.dev/" target="_blank") v1
-      a.btn.btn-sm(href="https://v2.thien.dev/" target="_blank") v2
-      a.btn.btn-sm(href="https://v3.thien.dev/" target="_blank") v3
+      a.btn.btn-sm(href="https://v1.thien.dev/" target="_blank" rel="noopener") v1
+      a.btn.btn-sm(href="https://v2.thien.dev/" target="_blank" rel="noopener") v2
+      a.btn.btn-sm(href="https://v3.thien.dev/" target="_blank" rel="noopener") v3
 </template>
 
 <script lang="ts">
