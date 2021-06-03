@@ -58,6 +58,6 @@ export default Vue.extend({
 }
 
 .wp {
-  color: #117ac9;
+  color: #2da5ff;
 }
 </style>
