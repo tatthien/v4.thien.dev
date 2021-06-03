@@ -1,0 +1,27 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  font-weight: normal;
+  background: hsla(0, 0%, 100%, 0.03);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 0 1px hsl(0deg 0% 100% / 10%);
+
+  &:hover {
+    background: hsla(0, 0%, 100%, 0.05);
+  }
+
+  svg + span {
+    margin-left: 0.5rem;
+  }
+
+  span + svg {
+    margin-left: 0.5rem;
+  }
+
+  &-sm {
+    padding: 0.25rem 1rem;
+    font-size: $font-base;
+  }
+}
