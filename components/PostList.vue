@@ -50,11 +50,13 @@ export default Vue.extend({
 <style lang="scss" scoped>
 nav {
   margin-bottom: 1rem;
+
   a {
-    border: none;
-    font-weight: normal;
     margin-right: 0.5rem;
+    font-weight: normal;
+    border: none;
     opacity: 0.6;
+
     &.active {
       opacity: 1;
     }
