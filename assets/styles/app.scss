@@ -10,6 +10,7 @@ body {
   font-size: $font-lg;
   line-height: 1.5;
   color: #fff;
+  cursor: none;
   background: #191b1f;
 }
 
@@ -36,6 +37,7 @@ a {
   font-weight: 700;
   color: #fff;
   text-decoration: none;
+  cursor: none;
   border-bottom: dotted 2px;
 
   &:focus {
