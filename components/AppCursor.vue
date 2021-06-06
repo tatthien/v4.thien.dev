@@ -1,5 +1,5 @@
 <template lang="pug">
-.cursor
+.cursor(:style="{ display: showCursor ? 'block' : 'none' }")
   .cursor-ring(:style="ringStyles")
   .cursor-dot(:style="dotStyles")
 </template>
@@ -25,6 +25,7 @@ export default Vue.extend({
   data() {
     return {
       dataRingSize: this.ringSize,
+      isMoved: false,
     }
   },
   computed: {
@@ -41,12 +42,22 @@ export default Vue.extend({
         background: this.dotBackground,
       }
     },
+    isMobile(): boolean {
+      return this.$isMobile()
+    },
+    showCursor(): boolean {
+      return this.isMoved && !this.$isMobile()
+    },
   },
   mounted() {
     document.addEventListener('mousemove', this.onMouseUpdate)
   },
   methods: {
     onMouseUpdate(e: MouseEvent) {
+      if (!this.isMoved) {
+        this.isMoved = true
+      }
+
       const ringEl = document.querySelector<HTMLElement>('.cursor-ring')
       const dotEl = document.querySelector<HTMLElement>('.cursor-dot')
 
