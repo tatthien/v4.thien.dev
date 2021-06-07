@@ -20,13 +20,7 @@ export default Vue.extend({
   head(): MetaInfo {
     return {
       title: this.post.title,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.post.description,
-        },
-      ],
+      meta: [{ property: 'og:title', content: this.post.title }],
     }
   },
   computed: {

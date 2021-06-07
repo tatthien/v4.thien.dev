@@ -19,6 +19,12 @@ export default {
         content:
           'https://user-images.githubusercontent.com/72242664/120949675-3c2fe080-c76f-11eb-87b6-ae2215ba0e30.jpg',
       },
+      {
+        property: 'og:description',
+        content: `I'm a web developer living in Ho Chi Minh city. I'm currently working at Pangara.`,
+      },
+      { property: 'og:type', content: 'website' },
+      { property: 'or:site_name', content: `Thien's Homepage` },
       { property: 'twitter:card', content: 'summary_large_image' },
       { property: 'twitter:site', content: '@thisisthien' },
     ],

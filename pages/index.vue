@@ -30,6 +30,9 @@ export default Vue.extend({
   head() {
     return {
       titleTemplate: 'Thien Nguyen - Software developer',
+      meta: [
+        { property: 'og:title', content: 'Thien Nguyen - Software developer' },
+      ],
     }
   },
 })

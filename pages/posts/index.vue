@@ -23,6 +23,7 @@ export default Vue.extend({
   head() {
     return {
       title: 'Blog',
+      meta: [{ property: 'og:title', content: 'Blog' }],
     }
   },
   computed: {
