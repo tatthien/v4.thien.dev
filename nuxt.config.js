@@ -2,7 +2,7 @@ export default {
   target: 'server',
   ssr: true,
   head: {
-    title: 'Thien Nguyen - Web Developer',
+    titleTemplate: '%s - Thien Nguyen - Software developer',
     htmlAttrs: {
       lang: 'en',
     },
@@ -14,6 +14,13 @@ export default {
         name: 'description',
         content: `I'm a web developer living in Ho Chi Minh city. I'm currently working at Pangara.`,
       },
+      {
+        property: 'og:image',
+        content:
+          'https://user-images.githubusercontent.com/72242664/120949675-3c2fe080-c76f-11eb-87b6-ae2215ba0e30.jpg',
+      },
+      { property: 'twitter:card', content: 'summary_large_image' },
+      { property: 'twitter:site', content: '@thisisthien' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },

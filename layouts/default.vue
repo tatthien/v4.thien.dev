@@ -18,10 +18,5 @@ export default Vue.extend({
   components: {
     AppCursor,
   },
-  head() {
-    return {
-      titleTemplate: '%s - Thien Nguyen - Web developer',
-    }
-  },
 })
 </script>

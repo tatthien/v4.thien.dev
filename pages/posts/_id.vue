@@ -26,11 +26,6 @@ export default Vue.extend({
           name: 'description',
           content: this.post.description,
         },
-        {
-          hid: 'og:image',
-          property: 'og:image',
-          content: '/img/home.jpg',
-        },
       ],
     }
   },

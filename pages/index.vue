@@ -29,20 +29,7 @@ export default Vue.extend({
   },
   head() {
     return {
-      title: 'Thien Nguyen',
-      titleTemplate: '%s - Web developer',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: `I'm a web developer living in Ho Chi Minh city. I'm currently working at Pangara.`,
-        },
-        {
-          hid: 'og:image',
-          property: 'og:image',
-          content: '/img/home.jpg',
-        },
-      ],
+      titleTemplate: 'Thien Nguyen - Software developer',
     }
   },
 })
