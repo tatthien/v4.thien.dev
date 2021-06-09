@@ -55,7 +55,7 @@ export default {
     '@/plugins/isMobile',
   ],
   buildModules: ['@nuxt/typescript-build'],
-  modules: ['@nuxtjs/axios'],
+  modules: [],
   axios: {},
   build: {},
 }
